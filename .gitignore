@@ -1,0 +1,12 @@
+# Archivos generados por compilación
+build/
+
+# Archivos temporales de Tomcat
+tomcat_console.log
+tomcat_console_utf8.txt
+
+# Configuración del editor
+.vscode/
+
+# Archivos compilados
+*.class

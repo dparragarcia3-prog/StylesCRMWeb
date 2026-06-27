@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Cliente - Styles CRM</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f3f4;
+        }
+
+        .formulario {
+            width: 400px;
+            margin: 50px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px #ccc;
+        }
+
+        h2 {
+            text-align:center;
+            color:#800020;
+        }
+
+        input {
+            width:100%;
+            padding:10px;
+            margin:8px 0;
+        }
+
+        button {
+            width:100%;
+            padding:12px;
+            background:#800020;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        button:hover {
+            background:#5c0017;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="formulario">
+
+<h2>Registrar Cliente</h2>
+
+
+<form action="ClienteServlet" method="POST">
+
+
+<label>Nombre:</label>
+
+<input type="text" name="nombre" required>
+
+
+<label>Apellido:</label>
+
+<input type="text" name="apellido" required>
+
+
+<label>Teléfono:</label>
+
+<input type="text" name="telefono" required>
+
+
+<label>Email:</label>
+
+<input type="email" name="email" required>
+
+
+<button type="submit">
+Guardar Cliente
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</body>
+
+</html>
